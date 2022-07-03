@@ -85,6 +85,7 @@ html , body{
     display: inline-block;
     text-align: left;
     font-size: 20px;
+    width: 50%;
 }
 
 
@@ -361,4 +362,16 @@ padding: 6px;
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 
+}
+
+@media (max-width: 799px) {
+    .aboutband span{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
 }
