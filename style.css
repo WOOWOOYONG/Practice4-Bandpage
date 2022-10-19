@@ -13,6 +13,7 @@ html , body{
     padding: 0;
 }
 
+
 .nav ul{
     margin: 0;
 }
@@ -111,7 +112,19 @@ html , body{
     display: flex;
     max-width: 100%;
     justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
+}
+
+.store-footer{
+    background-color: rgba(157, 188, 214, 0.914);
+    color: white;
+    padding: .25em 0;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
 }
 
 
@@ -373,5 +386,10 @@ padding: 6px;
         margin: 0;
         padding: 0;
     }
-    
+    .main-footer {
+        position:relative ;
+    }
+
+
+
 }
